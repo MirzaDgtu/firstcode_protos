@@ -323,7 +323,7 @@ func file_sso_sso_proto_rawDescGZIP() []byte {
 }
 
 var file_sso_sso_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
-var file_sso_sso_proto_goTypes = []interface{
+var file_sso_sso_proto_goTypes = []any{
 	(*RegisterRequest)(nil),  // 0: auth.RegisterRequest
 	(*RegisterResponce)(nil), // 1: auth.RegisterResponce
 	(*LoginRequest)(nil),     // 2: auth.LoginRequest
